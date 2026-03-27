@@ -24,8 +24,8 @@ bool dfs(int start, vector<bool>&visited, vector<vector<int>>&adj){
 
 int main() {
     int t, n, e, a, b;
-   cin >> t;
-   for(int i=0; i<t; i++){
+    cin >> t;
+    for(int i=0; i<t; i++){
        cin >> n >> e;
        vector<bool> visited(n, false);
        vector<vector<int>> adj(n);
