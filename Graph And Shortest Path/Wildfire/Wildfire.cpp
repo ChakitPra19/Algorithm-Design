@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-int node, inner_node, leaf_node;
 vector<bool>visited;
 vector<vector<int>> adj;
 vector<int> beauty;
